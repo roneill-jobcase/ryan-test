@@ -1,0 +1,4 @@
+- name: "Copy Odin Test File"
+  copy:
+    src: odin-test-file
+    dest: /opt/odin-test-file

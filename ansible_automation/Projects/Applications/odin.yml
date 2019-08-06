@@ -1,0 +1,9 @@
+---
+
+- name: Configure Odin Nodes
+  hosts: localhost
+  remote_user: ec2-user
+  become: yes
+
+  roles:
+    - odin-test
